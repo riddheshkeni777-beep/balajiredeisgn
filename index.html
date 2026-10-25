@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balaji Earthmovers | Shaping Mumbai's Subsurface Since 1991</title>
+    <meta name="description" content="Mumbai's trusted earthmoving and construction partner for over three decades — precision excavation, rock breaking and site development beneath the city's greatest landmarks.">
+    <meta name="keywords" content="Balaji Earthmovers, Excavation Mumbai, Rock Breaking Dahisar, Hydraulic Breakers, Foundation Earthworks, Civil Contractors Mumbai">
+    <meta property="og:title" content="Balaji Earthmovers | Shaping Mumbai's Subsurface Since 1991">
+    <meta property="og:description" content="Precision excavation, hard rock breaking, and site development across Mumbai since 1991.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts: Playfair Display for editorial elegance, Plus Jakarta Sans for body, JetBrains Mono for industrial tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fixed Header -->
+    <header class="site-header" id="siteHeader">
+        <div class="header-inner">
+            <a href="#" class="brand-logo" id="brandLogo" aria-label="Balaji Earthmovers Home">
+                <div class="logo-box chamfer-sm">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="1"/>
+                        <path d="M5 19L12 12L17 17"/>
+                        <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+                        <path d="M12 12L17 7"/>
+                        <path d="M15 5L19 9"/>
+                    </svg>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-title">BALAJI</span>
+                    <span class="brand-subtitle">EARTHMOVERS</span>
+                </div>
+            </a>
+
+            <nav class="nav-links" id="mainNav">
+                <a href="#heritage" class="nav-link">HERITAGE</a>
+                <a href="#craft" class="nav-link">CRAFT</a>
+                <a href="#fleet" class="nav-link">FLEET</a>
+                <a href="#projects" class="nav-link">PROJECTS</a>
+            </nav>
+
+            <div class="header-right">
+                <div class="live-clock" id="liveClock" title="Current Local Time in Mumbai">
+                    <span class="clock-label">MUMBAI</span>
+                    <span class="clock-time" id="clockDisplay">--:--:-- IST</span>
+                </div>
+                <a href="#estimate" class="btn-estimate-header chamfer-sm" id="btnRequestEstimateHeader">
+                    <span>REQUEST ESTIMATE</span>
+                    <span class="arrow">&nearr;</span>
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div class="mobile-nav-drawer" id="mobileNavDrawer">
+            <a href="#heritage" class="mobile-nav-link">HERITAGE</a>
+            <a href="#craft" class="mobile-nav-link">CRAFT</a>
+            <a href="#fleet" class="mobile-nav-link">FLEET</a>
+            <a href="#projects" class="mobile-nav-link">PROJECTS</a>
+            <a href="#estimate" class="mobile-nav-link mobile-cta">REQUEST ESTIMATE &nearr;</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-wrapper">
+                <img src="images/hero.jpg" alt="Balaji Earthmovers heavy excavator at dusk" class="hero-bg-img" id="heroBgImg">
+                <div class="hero-overlay"></div>
+            </div>
+
+            <div class="hero-container">
+                <div class="location-badge chamfer-sm hero-animate-1" id="locationBadge">
+                    <span class="badge-dot"></span>
+                    <span class="badge-text">DAHISAR EAST &mdash; 19.25&deg; N, 72.86&deg; E</span>
+                </div>
+
+                <div class="hero-content">
+                    <h1 class="hero-headline hero-animate-2">
+                        Shaping Mumbai's<br>
+                        <span class="serif-italic copper-text text-glow">Subsurface</span><br>
+                        Since 1991.
+                    </h1>
+                    <p class="hero-subtext hero-animate-3">
+                        Mumbai's trusted earthmoving and construction partner for over three decades &mdash; precision excavation, rock breaking and site development beneath the city's greatest landmarks.
+                    </p>
+
+                    <div class="hero-actions hero-animate-4">
+                        <a href="#estimate" class="btn-primary-hero chamfer-sm">
+                            <span>START A PROJECT</span>
+                            <span class="btn-icon">&rarr;</span>
+                        </a>
+                        <button class="btn-video-hero" id="heroVideoTrigger" aria-label="Watch Site Operations Reel">
+                            <span class="pulse-play-ring">
+                                <span class="play-triangle">&#9658;</span>
+                            </span>
+                            <span class="video-btn-text">OPERATIONS REEL</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Bottom 4 Stats Bar with Animated Counting -->
+                <div class="hero-stats-grid hero-animate-5" id="heroStats">
+                    <div class="hero-stat-item">
+                        <div class="stat-number-wrapper">
+                            <span class="stat-number count-up" data-target="35" data-suffix="+">0</span>
+                        </div>
+                        <span class="stat-label">YEARS OF LEGACY</span>
+                    </div>
+                    <div class="hero-stat-item">
+                        <div class="stat-number-wrapper">
+                            <span class="stat-number count-up" data-target="24" data-suffix="">0</span>
+                        </div>
+                        <span class="stat-label">HEAVY EXCAVATORS</span>
+                    </div>
+                    <div class="hero-stat-item">
+                        <div class="stat-number-wrapper">
+                            <span class="stat-number count-up" data-target="1.4" data-decimals="1" data-suffix="M+">0</span>
+                        </div>
+                        <span class="stat-label">CU.M EARTH MOVED</span>
+                    </div>
+                    <div class="hero-stat-item">
+                        <div class="stat-number-wrapper">
+                            <span class="stat-number count-up" data-target="120" data-suffix="+">0</span>
+                        </div>
+                        <span class="stat-label">CLIENTS SERVED</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <a href="#heritage" class="scroll-cue" aria-label="Scroll down">
+                <span class="scroll-cue-text">SCROLL</span>
+                <span class="scroll-cue-line"></span>
+                <span class="scroll-cue-arrow">&darr;</span>
+            </a>
+        </section>
+
+        <!-- Heritage Section -->
+        <section class="heritage-section section-beige" id="heritage">
+            <div class="container">
+                <div class="section-eyebrow reveal-up">
+                    <span class="eyebrow-dash">&mdash;</span>
+                    OUR HERITAGE &mdash; 1991 TO TODAY
+                </div>
+
+                <div class="heritage-grid">
+                    <div class="heritage-left reveal-left">
+                        <h2 class="heritage-heading">
+                            Three decades of moving the earth beneath <span class="serif-italic copper-text">Mumbai's ambitions.</span>
+                        </h2>
+
+                        <div class="founder-quote">
+                            <blockquote class="quote-text">
+                                &ldquo;Every tower this city celebrates stands on ground somebody had to break first. Since 1991, that somebody has been us &mdash; safely, precisely, and always on schedule.&rdquo;
+                            </blockquote>
+                            <div class="quote-author">
+                                <span class="author-name">Bhaskar S. Naidu</span>
+                                <span class="author-title">PROPRIETOR, BALAJI EARTHMOVERS</span>
+                            </div>
+                        </div>
+
+                        <div class="heritage-badge-row">
+                            <div class="compliance-badge chamfer-sm">
+                                <span class="check-icon">&#10003;</span> MCGM &amp; MMRDA Authorized
+                            </div>
+                            <div class="compliance-badge chamfer-sm">
+                                <span class="check-icon">&#10003;</span> ISO 9001:2015 Safety Standards
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="heritage-right reveal-right">
+                        <div class="legacy-cards-grid">
+                            <div class="legacy-card" data-tilt>
+                                <div class="legacy-card-number count-up" data-target="35" data-suffix="+">0</div>
+                                <div class="legacy-card-title">YEARS OF LEGACY</div>
+                                <div class="legacy-card-desc">Founded 1991, Mumbai</div>
+                                <div class="card-accent-bar"></div>
+                            </div>
+                            <div class="legacy-card" data-tilt>
+                                <div class="legacy-card-number count-up" data-target="24" data-suffix="">0</div>
+                                <div class="legacy-card-title">HEAVY EXCAVATORS</div>
+                                <div class="legacy-card-desc">Volvo &middot; Hitachi &middot; Komatsu &middot; Zaxis</div>
+                                <div class="card-accent-bar"></div>
+                            </div>
+                            <div class="legacy-card" data-tilt>
+                                <div class="legacy-card-number count-up" data-target="1.4" data-decimals="1" data-suffix="M+">0</div>
+                                <div class="legacy-card-title">CU.M EARTH MOVED</div>
+                                <div class="legacy-card-desc">Soil &amp; hard rock combined</div>
+                                <div class="card-accent-bar"></div>
+                            </div>
+                            <div class="legacy-card" data-tilt>
+                                <div class="legacy-card-number count-up" data-target="120" data-suffix="+">0</div>
+                                <div class="legacy-card-title">CLIENTS SERVED</div>
+                                <div class="legacy-card-desc">60+ regular partnerships</div>
+                                <div class="card-accent-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Logos Marquee Banner -->
+        <div class="marquee-ribbon">
+            <div class="marquee-track" id="marqueeTrack">
+                <div class="marquee-item">L&amp;T ECC DIVISION</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">SHAPOORJI PALLONJI</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">RUNWAL GROUP</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">N ROSE DEVELOPERS</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">OMKAR REALTY</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">ARKADE DEVELOPERS</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">SVKM TRUST</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">LODHA GROUP</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">KALPATARU</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">RUSTOMJEE</div>
+                <div class="marquee-dot">&bull;</div>
+                
+                <!-- Duplicate for seamless infinite loop -->
+                <div class="marquee-item">L&amp;T ECC DIVISION</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">SHAPOORJI PALLONJI</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">RUNWAL GROUP</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">N ROSE DEVELOPERS</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">OMKAR REALTY</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">ARKADE DEVELOPERS</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">SVKM TRUST</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">LODHA GROUP</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">KALPATARU</div>
+                <div class="marquee-dot">&bull;</div>
+                <div class="marquee-item">RUSTOMJEE</div>
+                <div class="marquee-dot">&bull;</div>
+            </div>
+        </div>
+
+        <!-- The Craft Section (Interactive Pinned Deep Excavation Phases) -->
+        <section class="craft-section" id="craft">
+            <div class="craft-sticky-viewport" id="craftStickyViewport">
+                <div class="craft-top-bar">
+                    <div class="container flex-between">
+                        <div class="craft-bar-label">
+                            <span class="copper-dash">&mdash;</span> THE CRAFT &mdash; SCROLL TO DESCEND
+                        </div>
+                        <div class="craft-phase-indicator" id="craftPhaseIndicator">
+                            <button class="phase-btn active chamfer-sm" data-phase="0">01</button>
+                            <span class="slash">/</span>
+                            <button class="phase-btn chamfer-sm" data-phase="1">02</button>
+                            <span class="slash">/</span>
+                            <button class="phase-btn chamfer-sm" data-phase="2">03</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="craft-panels-wrapper" id="craftPanelsWrapper">
+                    <!-- Phase 01 -->
+                    <article class="craft-panel active" id="craftPanel0" data-index="0">
+                        <div class="craft-bg-layer">
+                            <img src="images/craft-1.jpg" alt="Bedrock breaking in basalt quarry" class="craft-panel-img">
+                            <div class="craft-panel-overlay"></div>
+                        </div>
+                        <div class="craft-panel-content container">
+                            <div class="craft-watermark animate-float">01</div>
+                            <div class="craft-info">
+                                <span class="phase-tag chamfer-sm">PHASE 01</span>
+                                <h3 class="craft-title">Bedrock &amp; Breaking</h3>
+                                <p class="craft-description">
+                                    Twenty-four hydraulic rock breakers tear through Mumbai's basalt &mdash; the unseen violence beneath every foundation the city stands on.
+                                </p>
+                                <div class="craft-specs">
+                                    <div class="craft-spec-item">
+                                        <span class="spec-label">TECHNIQUE</span>
+                                        <span class="spec-val">Basalt fracturing &amp; chiseled trenching</span>
+                                    </div>
+                                    <div class="craft-spec-item">
+                                        <span class="spec-label">FORCE</span>
+                                        <span class="spec-val">Up to 8,500 Joules/blow per breaker</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Phase 02 -->
+                    <article class="craft-panel" id="craftPanel1" data-index="1">
+                        <div class="craft-bg-layer">
+                            <img src="images/craft-2.jpg" alt="Urban reclamation and Metro infrastructure earthworks" class="craft-panel-img">
+                            <div class="craft-panel-overlay"></div>
+                        </div>
+                        <div class="craft-panel-content container">
+                            <div class="craft-watermark animate-float">02</div>
+                            <div class="craft-info">
+                                <span class="phase-tag chamfer-sm">PHASE 02</span>
+                                <h3 class="craft-title">Reclamation &amp; Infrastructure</h3>
+                                <p class="craft-description">
+                                    From the Mumbai Metro's deep shafts to coastal site development &mdash; earthworks engineered to the cubic metre, delivered to the day.
+                                </p>
+                                <div class="craft-specs">
+                                    <div class="craft-spec-item">
+                                        <span class="spec-label">DEPTH REACH</span>
+                                        <span class="spec-val">Basement levels up to -32 metres</span>
+                                    </div>
+                                    <div class="craft-spec-item">
+                                        <span class="spec-label">TOLERANCE</span>
+                                        <span class="spec-val">&plusmn;50mm laser-guided perimeter grading</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Phase 03 -->
+                    <article class="craft-panel" id="craftPanel2" data-index="2">
+                        <div class="craft-bg-layer">
+                            <img src="images/craft-3.jpg" alt="Heavy earthmoving tippers and haulage trucks" class="craft-panel-img">
+                            <div class="craft-panel-overlay"></div>
+                        </div>
+                        <div class="craft-panel-content container">
+                            <div class="craft-watermark animate-float">03</div>
+                            <div class="craft-info">
+                                <span class="phase-tag chamfer-sm">PHASE 03</span>
+                                <h3 class="craft-title">Foundations &amp; Haulage</h3>
+                                <p class="craft-description">
+                                    Twenty-six Hyva tippers move mountains nightly, so towers like Northern Heights can rise on ground we prepared.
+                                </p>
+                                <div class="craft-specs">
+                                    <div class="craft-spec-item">
+                                        <span class="spec-label">HAULAGE FLEET</span>
+                                        <span class="spec-val">26 Multi-axle high-side dumper units</span>
+                                    </div>
+                                    <div class="craft-spec-item">
+                                        <span class="spec-label">DISPOSAL COMPLIANCE</span>
+                                        <span class="spec-val">100% Authorized MCGM &amp; MMRDA dump yards</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Craft Navigation Controls -->
+                <div class="craft-controls container">
+                    <button class="craft-nav-btn prev chamfer-sm" id="craftPrevBtn" aria-label="Previous Phase">&larr; PREVIOUS PHASE</button>
+                    <div class="craft-progress-bar">
+                        <div class="craft-progress-fill" id="craftProgressFill"></div>
+                    </div>
+                    <button class="craft-nav-btn next chamfer-sm" id="craftNextBtn" aria-label="Next Phase">NEXT PHASE &rarr;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fleet Section -->
+        <section class="fleet-section section-beige" id="fleet">
+            <div class="container">
+                <div class="fleet-header flex-between reveal-up">
+                    <div>
+                        <div class="section-eyebrow">
+                            <span class="eyebrow-dash">&mdash;</span>
+                            THE FLEET
+                        </div>
+                        <h2 class="fleet-headline">Heavy machinery catalog.</h2>
+                    </div>
+                    <p class="fleet-subtitle">
+                        Meticulously maintained heavy earthmoving machinery owned in-house, deployed across Western Mumbai and MMR.
+                    </p>
+                </div>
+
+                <!-- Fleet Grid with Hover Lift & Sheen -->
+                <div class="fleet-grid">
+                    <!-- Featured Large Card: Volvo EC 210 & EC 290 -->
+                    <div class="fleet-card featured-fleet-card reveal-scale" data-fleet-id="volvo" data-tilt>
+                        <div class="fleet-card-bg">
+                            <img src="images/fleet-volvo.jpg" alt="Volvo EC 210 and EC 290 excavator" class="fleet-img">
+                            <div class="fleet-overlay"></div>
+                        </div>
+                        <div class="fleet-card-top">
+                            <span class="fleet-cat-tag chamfer-sm">HEAVY EXCAVATOR</span>
+                            <span class="fleet-count-badge chamfer-sm">&times;3</span>
+                        </div>
+                        <div class="fleet-card-bottom">
+                            <h3 class="fleet-title">Volvo EC 210 &amp; EC 290</h3>
+                            <p class="fleet-desc">High-torque Swedish hydraulic crawler excavators specialized for deep foundation cuts, heavy bedrock handling, and high-velocity bulk excavation.</p>
+                            <div class="fleet-quick-specs">
+                                <span>21 &ndash; 29 Tonnes</span> &bull; <span>1.4 cu.m Bucket</span> &bull; <span>High Breakout Force</span>
+                            </div>
+                            <span class="fleet-view-specs-link">CLICK TO VIEW TECHNICAL SPECS &rarr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Tata Hitachi EX 200 -->
+                    <div class="fleet-card reveal-up" data-fleet-id="hitachi" data-tilt>
+                        <div class="fleet-card-bg">
+                            <img src="images/fleet-hitachi.jpg" alt="Tata Hitachi EX 200 excavator" class="fleet-img">
+                            <div class="fleet-overlay"></div>
+                        </div>
+                        <div class="fleet-card-top">
+                            <span class="fleet-cat-tag chamfer-sm">SUPER SERIES EXCAVATOR</span>
+                            <span class="fleet-count-badge chamfer-sm">&times;7</span>
+                        </div>
+                        <div class="fleet-card-bottom">
+                            <h3 class="fleet-title">Tata Hitachi EX 200</h3>
+                            <p class="fleet-desc">The rugged workhorse of Mumbai construction. Unmatched cycle speed, heavy trenching reliability, and optimal fuel-to-output ratios.</p>
+                            <div class="fleet-quick-specs">
+                                <span>20.5 Tonnes</span> &bull; <span>0.95 cu.m Bucket</span> &bull; <span>Rapid Swing Cycle</span>
+                            </div>
+                            <span class="fleet-view-specs-link">VIEW SPECS &rarr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Zaxis 120 / 210 / 370 -->
+                    <div class="fleet-card reveal-up" data-fleet-id="zaxis" data-tilt>
+                        <div class="fleet-card-bg">
+                            <img src="images/craft-1.jpg" alt="Hitachi Zaxis excavator" class="fleet-img">
+                            <div class="fleet-overlay"></div>
+                        </div>
+                        <div class="fleet-card-top">
+                            <span class="fleet-cat-tag chamfer-sm">HYDRAULIC EXCAVATOR</span>
+                            <span class="fleet-count-badge chamfer-sm">&times;5</span>
+                        </div>
+                        <div class="fleet-card-bottom">
+                            <h3 class="fleet-title">Zaxis 120 / 210 / 370</h3>
+                            <p class="fleet-desc">From compact urban footprint maneuvering (Zaxis 120) to colossal quarry breaking (Zaxis 370) equipped with intelligent HIOS hydraulics.</p>
+                            <div class="fleet-quick-specs">
+                                <span>12 &ndash; 37 Tonnes</span> &bull; <span>Multi-Class Range</span> &bull; <span>Urban &amp; Quarry</span>
+                            </div>
+                            <span class="fleet-view-specs-link">VIEW SPECS &rarr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: L&T Komatsu PC-210 -->
+                    <div class="fleet-card reveal-up" data-fleet-id="komatsu" data-tilt>
+                        <div class="fleet-card-bg">
+                            <img src="images/fleet-komatsu.jpg" alt="L&T Komatsu PC-210 excavator" class="fleet-img">
+                            <div class="fleet-overlay"></div>
+                        </div>
+                        <div class="fleet-card-top">
+                            <span class="fleet-cat-tag chamfer-sm">HYDRAULIC EXCAVATOR</span>
+                            <span class="fleet-count-badge chamfer-sm">&times;3</span>
+                        </div>
+                        <div class="fleet-card-bottom">
+                            <h3 class="fleet-title copper-text">L&amp;T Komatsu PC-210</h3>
+                            <p class="fleet-desc">Reinforced boom and heavy-duty arm built to withstand the punishing vibration of hard rock excavation and continuous foundation shoring.</p>
+                            <div class="fleet-quick-specs">
+                                <span>21 Tonnes</span> &bull; <span>1.0 cu.m Heavy Bucket</span> &bull; <span>HydrauMind System</span>
+                            </div>
+                            <span class="fleet-view-specs-link">VIEW SPECS &rarr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Hydraulic Rock Breakers -->
+                    <div class="fleet-card reveal-up" data-fleet-id="breakers" data-tilt>
+                        <div class="fleet-card-bg">
+                            <img src="images/fleet-breaker.jpg" alt="Hydraulic rock breakers" class="fleet-img">
+                            <div class="fleet-overlay"></div>
+                        </div>
+                        <div class="fleet-card-top">
+                            <span class="fleet-cat-tag chamfer-sm">HARD ROCK DEMOLITION</span>
+                            <span class="fleet-count-badge chamfer-sm">&times;24</span>
+                        </div>
+                        <div class="fleet-card-bottom">
+                            <h3 class="fleet-title">Hydraulic Rock Breakers</h3>
+                            <p class="fleet-desc">Mumbai's premier arsenal of heavy rock demolition breakers (Furukawa, Soosan, CAT) engineered for basalt bedrock without blasting.</p>
+                            <div class="fleet-quick-specs">
+                                <span>24 Active Units</span> &bull; <span>Non-Blasting Safe</span> &bull; <span>Urban Approved</span>
+                            </div>
+                            <span class="fleet-view-specs-link">VIEW SPECS &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section (Landmark Earthworks) -->
+        <section class="projects-section section-beige" id="projects">
+            <div class="container">
+                <div class="projects-header flex-between reveal-up">
+                    <div>
+                        <div class="section-eyebrow">
+                            <span class="eyebrow-dash">&mdash;</span>
+                            LANDMARK EARTHWORKS
+                        </div>
+                        <h2 class="projects-headline">
+                            Ground we've <span class="serif-italic copper-text">broken.</span>
+                        </h2>
+                    </div>
+
+                    <!-- Tabs: COMPLETED / ONGOING -->
+                    <div class="projects-tabs-pill chamfer-sm" id="projectTabs">
+                        <button class="project-tab-btn active" data-filter="completed" id="tabCompleted">COMPLETED</button>
+                        <button class="project-tab-btn" data-filter="ongoing" id="tabOngoing">ONGOING</button>
+                    </div>
+                </div>
+
+                <!-- Featured Project Card: Northern Heights -->
+                <div class="featured-project-card reveal-scale" id="featuredProjectCard">
+                    <div class="featured-project-bg">
+                        <img src="images/project-skyline.jpg" alt="Northern Heights Dahisar East Skyline" class="featured-project-img">
+                        <div class="featured-project-overlay"></div>
+                    </div>
+                    <div class="featured-project-content flex-between">
+                        <div class="fp-left">
+                            <span class="fp-tag chamfer-sm">FEATURED &mdash; COMPLETED</span>
+                            <h3 class="fp-title">Northern Heights</h3>
+                            <div class="fp-client">N Rose Developers &middot; Dahisar East</div>
+                            <div class="fp-subdetails">50,000 cu.m soil &middot; 1,50,000 cu.m hard rock</div>
+                        </div>
+                        <div class="fp-right">
+                            <div class="fp-volume count-up" data-target="200000" data-format="indian">0</div>
+                            <div class="fp-meta">CU.M &middot; 12 MO</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects Ledger Table / List -->
+                <div class="projects-ledger" id="projectsLedger">
+                    <!-- Project 01 -->
+                    <div class="project-row reveal-up" data-status="completed">
+                        <div class="pr-col pr-num">01</div>
+                        <div class="pr-col pr-title-block">
+                            <h4 class="pr-title">Wadhwa Residency</h4>
+                            <div class="pr-meta-sub">L&amp;T ECC Division &middot; Ghatkopar East</div>
+                        </div>
+                        <div class="pr-col pr-volume">
+                            <span class="copper-number count-up" data-target="400000" data-format="indian">0</span>
+                            <span class="unit">cu.m</span>
+                        </div>
+                        <div class="pr-col pr-duration">12 MO</div>
+                        <div class="pr-col pr-action">
+                            <span class="arrow-circle">&nearr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 02 -->
+                    <div class="project-row reveal-up" data-status="completed">
+                        <div class="pr-col pr-num">02</div>
+                        <div class="pr-col pr-title-block">
+                            <h4 class="pr-title">Omkar Realty Earthworks</h4>
+                            <div class="pr-meta-sub">Omkar Realty Pvt. Ltd. &middot; Malad &amp; Jogeshwari East</div>
+                        </div>
+                        <div class="pr-col pr-volume">
+                            <span class="copper-number count-up" data-target="220000" data-format="indian">0</span>
+                            <span class="unit">cu.m</span>
+                        </div>
+                        <div class="pr-col pr-duration">9 MO</div>
+                        <div class="pr-col pr-action">
+                            <span class="arrow-circle">&nearr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 03 -->
+                    <div class="project-row reveal-up" data-status="completed">
+                        <div class="pr-col pr-num">03</div>
+                        <div class="pr-col pr-title-block">
+                            <h4 class="pr-title">Arkade Developers Site</h4>
+                            <div class="pr-meta-sub">Arkade Developers &middot; Kanjurmarg</div>
+                        </div>
+                        <div class="pr-col pr-volume">
+                            <span class="copper-number count-up" data-target="150000" data-format="indian">0</span>
+                            <span class="unit">cu.m</span>
+                        </div>
+                        <div class="pr-col pr-duration">6 MO</div>
+                        <div class="pr-col pr-action">
+                            <span class="arrow-circle">&nearr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 04 -->
+                    <div class="project-row reveal-up" data-status="completed">
+                        <div class="pr-col pr-num">04</div>
+                        <div class="pr-col pr-title-block">
+                            <h4 class="pr-title">Runwal Commercial Hub</h4>
+                            <div class="pr-meta-sub">Runwal Group &middot; Mulund West</div>
+                        </div>
+                        <div class="pr-col pr-volume">
+                            <span class="copper-number count-up" data-target="110000" data-format="indian">0</span>
+                            <span class="unit">cu.m</span>
+                        </div>
+                        <div class="pr-col pr-duration">8 MO</div>
+                        <div class="pr-col pr-action">
+                            <span class="arrow-circle">&nearr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 05 -->
+                    <div class="project-row reveal-up" data-status="completed">
+                        <div class="pr-col pr-num">05</div>
+                        <div class="pr-col pr-title-block">
+                            <h4 class="pr-title">Shapoorji Pallonji Shafts</h4>
+                            <div class="pr-meta-sub">Shapoorji Pallonji &middot; Worli</div>
+                        </div>
+                        <div class="pr-col pr-volume">
+                            <span class="copper-number count-up" data-target="95000" data-format="indian">0</span>
+                            <span class="unit">cu.m</span>
+                        </div>
+                        <div class="pr-col pr-duration">5 MO</div>
+                        <div class="pr-col pr-action">
+                            <span class="arrow-circle">&nearr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 06 -->
+                    <div class="project-row reveal-up" data-status="completed">
+                        <div class="pr-col pr-num">06</div>
+                        <div class="pr-col pr-title-block">
+                            <h4 class="pr-title">SVKM Polytechnic</h4>
+                            <div class="pr-meta-sub">Bhagubhai Mafatlal Polytechnic &middot; Malad</div>
+                        </div>
+                        <div class="pr-col pr-volume">
+                            <span class="copper-number count-up" data-target="72000" data-format="indian">0</span>
+                            <span class="unit">cu.m</span>
+                        </div>
+                        <div class="pr-col pr-duration">4 MO</div>
+                        <div class="pr-col pr-action">
+                            <span class="arrow-circle">&nearr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Ongoing Projects (displayed when ONGOING tab is clicked) -->
+                    <div class="project-row ongoing-row" data-status="ongoing" style="display: none;">
+                        <div class="pr-col pr-num">07</div>
+                        <div class="pr-col pr-title-block">
+                            <h4 class="pr-title">Metro Line 7 Deep Incline</h4>
+                            <div class="pr-meta-sub">MMRDA Consortium &middot; Western Express Corridor</div>
+                        </div>
+                        <div class="pr-col pr-volume">
+                            <span class="copper-number count-up" data-target="185000" data-format="indian">0</span>
+                            <span class="unit">cu.m</span>
+                        </div>
+                        <div class="pr-col pr-duration">IN PROGRESS</div>
+                        <div class="pr-col pr-action">
+                            <span class="arrow-circle">&nearr;</span>
+                        </div>
+                    </div>
+
+                    <div class="project-row ongoing-row" data-status="ongoing" style="display: none;">
+                        <div class="pr-col pr-num">08</div>
+                        <div class="pr-col pr-title-block">
+                            <h4 class="pr-title">Borivali Skyscraper Basements</h4>
+                            <div class="pr-meta-sub">Rustomjee Urban Infra &middot; Borivali West</div>
+                        </div>
+                        <div class="pr-col pr-volume">
+                            <span class="copper-number count-up" data-target="125000" data-format="indian">0</span>
+                            <span class="unit">cu.m</span>
+                        </div>
+                        <div class="pr-col pr-duration">IN PROGRESS</div>
+                        <div class="pr-col pr-action">
+                            <span class="arrow-circle">&nearr;</span>
+                        </div>
+                    </div>
+
+                    <div class="project-row ongoing-row" data-status="ongoing" style="display: none;">
+                        <div class="pr-col pr-num">09</div>
+                        <div class="pr-col pr-title-block">
+                            <h4 class="pr-title">Kandivali Twin Towers Excavation</h4>
+                            <div class="pr-meta-sub">Kalpataru Properties &middot; Kandivali East</div>
+                        </div>
+                        <div class="pr-col pr-volume">
+                            <span class="copper-number count-up" data-target="90000" data-format="indian">0</span>
+                            <span class="unit">cu.m</span>
+                        </div>
+                        <div class="pr-col pr-duration">IN PROGRESS</div>
+                        <div class="pr-col pr-action">
+                            <span class="arrow-circle">&nearr;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start a Project / Enquiry Section -->
+        <section class="contact-section section-dark" id="estimate">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Left: Contact Details -->
+                    <div class="contact-info-col reveal-left">
+                        <div class="section-eyebrow copper-eyebrow">
+                            <span class="eyebrow-dash">&mdash;</span>
+                            START A PROJECT
+                        </div>
+                        <h2 class="contact-headline">
+                            Break ground on your next <span class="serif-italic copper-text">landmark.</span>
+                        </h2>
+
+                        <div class="contact-card-box">
+                            <div class="contact-block">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">DIRECT DESK</span>
+                                    <a href="tel:+919820128944" class="contact-val">+91 98201 28944</a>
+                                    <span class="contact-sep">&middot;</span>
+                                    <a href="tel:+919322243354" class="contact-val">+91 93222 43354</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-block">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">OFFICIAL INQUIRY</span>
+                                    <a href="mailto:balajiearthmovers5268@gmail.com" class="contact-val">balajiearthmovers5268@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-block">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">REGISTERED OFFICE</span>
+                                    <p class="contact-address">
+                                        604/605, B Wing, Shree Kedarnath Co-op. CHS, Opp. Gokul Anand Hotel, Overi Pada, Near W.E. Highway, Dahisar (East), Mumbai &mdash; 400068
+                                    </p>
+                                    <div class="contact-timing">Monday &ndash; Saturday &middot; 9:00 AM &ndash; 7:00 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Interactive Request Estimate Form -->
+                    <div class="contact-form-col reveal-right">
+                        <div class="estimate-form-card chamfer-sm">
+                            <form id="estimateForm" class="estimate-form">
+                                <div class="form-row two-col">
+                                    <div class="form-group">
+                                        <label for="fullName">FULL NAME *</label>
+                                        <input type="text" id="fullName" name="fullName" placeholder="Rajan Mehta" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="companyName">COMPANY</label>
+                                        <input type="text" id="companyName" name="companyName" placeholder="Mehta Developers">
+                                    </div>
+                                </div>
+
+                                <div class="form-row two-col">
+                                    <div class="form-group">
+                                        <label for="phone">PHONE *</label>
+                                        <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">EMAIL *</label>
+                                        <input type="email" id="email" name="email" placeholder="rajan@mehtagroup.com" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-row two-col">
+                                    <div class="form-group">
+                                        <label for="projectType">SERVICE REQUIRED</label>
+                                        <select id="projectType" name="projectType">
+                                            <option value="Deep Foundation Excavation">Deep Foundation Excavation</option>
+                                            <option value="Hard Rock Breaking (Basalt)">Hard Rock Breaking (Basalt)</option>
+                                            <option value="Site Development & Leveling">Site Development &amp; Leveling</option>
+                                            <option value="Debris & Muck Haulage">Debris &amp; Muck Haulage</option>
+                                            <option value="Metro / Shaft Infrastructure">Metro / Shaft Infrastructure</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="estimatedVolume">EST. VOLUME (CU.M)</label>
+                                        <input type="text" id="estimatedVolume" name="estimatedVolume" placeholder="e.g. 50,000 cu.m">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="projectDetails">PROJECT DETAILS</label>
+                                    <textarea id="projectDetails" name="projectDetails" rows="4" placeholder="Soil conditions, site access, location, timeline, basement levels..."></textarea>
+                                </div>
+
+                                <button type="submit" class="btn-submit-estimate chamfer-sm" id="btnSubmitEstimate">
+                                    <span>REQUEST ESTIMATE</span>
+                                    <span class="btn-shine"></span>
+                                </button>
+                                
+                                <div class="form-disclaimer">
+                                    Typical proposal turnaround within 24 hours. Confidential site surveys available across MMR.
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top-grid">
+                <!-- Col 1: Bio -->
+                <div class="footer-col footer-col-brand reveal-up">
+                    <div class="footer-logo">
+                        <div class="logo-box chamfer-sm">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="1"/>
+                                <path d="M5 19L12 12L17 17"/>
+                                <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+                                <path d="M12 12L17 7"/>
+                            </svg>
+                        </div>
+                        <div class="brand-text">
+                            <span class="brand-title">BALAJI</span>
+                            <span class="brand-subtitle">EARTHMOVERS</span>
+                        </div>
+                    </div>
+                    <p class="footer-bio">
+                        Mumbai's trusted earthmoving and construction partner since 1991. Builders &amp; Contractors &mdash; GST 27ABAPN6575C1ZO.
+                    </p>
+                </div>
+
+                <!-- Col 2: Navigate -->
+                <div class="footer-col reveal-up">
+                    <div class="footer-heading">NAVIGATE</div>
+                    <ul class="footer-links">
+                        <li><a href="#heritage">Heritage</a></li>
+                        <li><a href="#craft">Craft</a></li>
+                        <li><a href="#fleet">Fleet</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#estimate">Enquiry</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Head Office -->
+                <div class="footer-col footer-col-address reveal-up">
+                    <div class="footer-heading">HEAD OFFICE</div>
+                    <p class="footer-address-text">
+                        604/605, B Wing, Shree Kedarnath Co-op. CHS,<br>
+                        Opp. Gokul Anand Hotel, Overi Pada, Near W.E.<br>
+                        Highway, Dahisar (East), Mumbai &mdash; 400068
+                    </p>
+                    <p class="footer-phones">
+                        <a href="tel:+919820128944">+91 98201 28944</a> &middot; <a href="tel:+919322243354">+91 93222 43354</a><br>
+                        <a href="mailto:balajiearthmovers5268@gmail.com">balajiearthmovers5268@gmail.com</a>
+                    </p>
+                    <div class="footer-timing">Monday &ndash; Saturday &middot; 9:00 AM &ndash; 7:00 PM</div>
+                </div>
+            </div>
+
+            <!-- Monumental Outlined Logo Lettering with Shimmer/Outline Effect -->
+            <div class="footer-wireframe-banner reveal-scale" aria-hidden="true">
+                <span>BALAJI EARTHMOVERS</span>
+            </div>
+
+            <!-- Bottom Copyright & Back to Surface -->
+            <div class="footer-bottom flex-between">
+                <div class="copyright-text">
+                    &copy; 2026 BALAJI EARTHMOVERS &middot; EST. 1991 &middot; MUMBAI
+                </div>
+                <a href="#hero" class="back-to-surface-btn" id="backToSurfaceBtn">
+                    <span>BACK TO SURFACE</span>
+                    <span class="arrow">&uarr;</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Direct Quick Action Button (Call & Quick Estimate) -->
+    <div class="floating-contact-beacon" id="floatingContactBeacon">
+        <a href="tel:+919820128944" class="beacon-circle chamfer-sm" title="Direct Site Desk: +91 98201 28944">
+            <span class="beacon-pulse"></span>
+            <span class="beacon-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+            </span>
+            <span class="beacon-label">CALL DESK</span>
+        </a>
+    </div>
+
+    <!-- Operations Video Showcase Modal -->
+    <div class="modal-backdrop" id="videoModal">
+        <div class="modal-card video-modal-card chamfer-sm">
+            <button class="modal-close" id="videoModalCloseBtn" aria-label="Close video modal">&times;</button>
+            <div class="video-modal-header">
+                <span class="fp-tag chamfer-sm">SITE DOCUMENTARY</span>
+                <h3 class="video-modal-title">Heavy Excavation &amp; Basalt Demolition in Mumbai</h3>
+            </div>
+            <div class="video-frame-container">
+                <div class="video-mock-player">
+                    <img src="images/craft-1.jpg" alt="Video preview thumbnail" class="video-preview-thumb">
+                    <div class="video-play-overlay">
+                        <div class="live-status-pill">
+                            <span class="live-dot"></span> LIVE SITE FEED &bull; DAHISAR METRO SHAFT
+                        </div>
+                        <p class="video-caption">24 Rock Breakers in continuous shift breaking 12,000 cu.m basalt strata per week.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fleet Machinery Modal Preview -->
+    <div class="modal-backdrop" id="fleetModal">
+        <div class="modal-card chamfer-sm">
+            <button class="modal-close" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamically populated via app.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Toast Notification -->
+    <div class="toast-notification chamfer-sm" id="toastNotification">
+        <div class="toast-content">
+            <div class="toast-icon">&check;</div>
+            <div class="toast-message" id="toastMessage">Inquiry submitted successfully!</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
